@@ -1,15 +1,65 @@
-🚗 Car Rental System
-Explore the world of car rentals with the Car Rental System, a Java-based console application that combines learning and simulation. 🌟
+# Car Rental System
 
-Features
-🚀 Rent a Car: Experience the ease of renting cars through an interactive console. 🔁 Return a Car: Effortlessly return previously rented cars and update availability. 👥 Customer Management: Add new customers and maintain customer records. 🚗 Car Management: Manage cars, brands, models, and pricing details. 📝 Rental History: Keep track of rentals, customers, and rental durations.
+## Overview
+This is a simple **Car Rental System** implemented in Java. The system allows customers to rent and return cars through a menu-driven console interface.
 
-Getting Started
-1. Clone the Repo: git clone https://github.com/prabhatthakuryt/Car-Rental-System.git
-Contributions Welcome! 🎉
-Contribute to the project's growth. Open issues, submit pull requests, and collaborate with the community.
+## Features
+- Add cars to the rental system
+- Rent available cars for a specified number of days
+- Return rented cars
+- Calculate rental cost based on the number of days
+- Display rental details
 
-Future Roadmap 🛤️
-🤝 Support multiple customers renting the same car simultaneously. ⏰ Implement date-based pricing adjustments. 🎨 Develop a graphical user interface (GUI) for enhanced user experience.
+## Technologies Used
+- **Java** (Standard Edition)
+- **Java Collections Framework** (ArrayList for data storage)
+- **Scanner** (for user input handling)
 
-Feel the thrill of renting and returning cars while mastering OOP concepts. Dive into the Car Rental System and drive your learning forward! 🚗💨
+## How to Run
+### Prerequisites
+- Ensure you have **Java JDK 8 or later** installed.
+- Set up the environment variable **JAVA_HOME** if required.
+
+### Steps to Run
+1. Clone the repository or download the source code.
+   ```sh
+   git clone https://github.com/your-username/car-rental-system.git
+   cd car-rental-system
+
+## Usage
+- The program displays a menu with options to rent a car, return a car, or exit.
+- Customers enter their name, select an available car by ID, and specify the rental duration.
+- The system calculates the total rental cost and confirms the booking.
+- Customers can return a car by entering its ID.
+
+Example Output :-
+
+===== Car Rental System =====
+1. Rent a Car
+2. Return a Car
+3. Exit
+Enter your choice: 1
+
+== Rent a Car ==
+Enter your name: John Doe
+
+Available Cars:
+C01 - Benz GLE
+C02 - Toyota Camry
+C03 - Maruti Suzuki Baleno
+C04 - Honda Accord
+C05 - Mahindra Thar
+
+Enter the car ID you want to rent: C02
+Enter the number of days for rental: 3
+
+== Rental Information ==
+Customer ID: CUS1
+Customer Name: John Doe
+Car: Toyota Camry
+Rental Days: 3
+Total Price: $510.00
+
+Confirm rental (Y/N): Y
+
+Car rented successfully.
